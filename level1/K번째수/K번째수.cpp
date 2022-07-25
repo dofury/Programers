@@ -23,5 +23,5 @@ vector<int> solution(vector<int> array, vector<vector<int>> commands) {
 commands에 값대로 자른 벡터를 temp에 넣는다.
 temp를 내림차순으로 정렬한다.
 commands에 있는 순서의 값을 answer에 추가한다.
-이를 반복한다.
+temp를 초기화하고 이를 반복한다.
 */
